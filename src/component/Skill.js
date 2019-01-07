@@ -2,9 +2,7 @@ import React, { Component } from 'react';
 import { Chip } from 'react-mdl';
 
 class Skill extends Component {
-	constructor(props) {
-		super(props);
-	}
+	
 	render(){
 		const skills = this.props.skills;
 		console.log(skills)

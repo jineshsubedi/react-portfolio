@@ -9,7 +9,18 @@ import Contact from './Contact';
 const Main = () => (
 	<Switch>
 	  <Route exact path="/" component={Landingpage} />
-	  <Route exact path="/about" component={About} />
+	  <Route 
+	  	exact path="/about"
+	  	render={props => 
+	  		<About 
+		  		name="jinesh subedi" 
+		  		email="jinesh1094@gmail.com"
+		  		address="Kathmandu"
+		  		gender={true}
+		  		nationality="nepali"
+		  		occupation="student" 
+	  		/>}
+	  /> 
 	  <Route exact path="/Blog" component={Blog} />
 	  <Route exact path="/Portfolio" component={Portfolio} />
 	  <Route exact path="/Contact" component={Contact} />

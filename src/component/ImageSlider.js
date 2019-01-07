@@ -10,7 +10,7 @@ class About extends Component {
 	<div className="row">
 		<div className="col-md-12">
 			<div className="banner">
-				<img src={Image} alt="banner image"/>
+				<img src={Image} alt="banner"/>
 				<div className="banner-text">
 					<h3>Welcome to my site</h3>
 					<p>This site has all you need to get start on React Project!</p>

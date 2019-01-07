@@ -27,7 +27,7 @@ class App extends Component {
                       <Link to="/portfolio">Portfolio</Link>
                       <Link to="/contact">Contact</Link>
                       <Link to="/blog">Blog</Link>
-                      <a href="/download/resume.pdf">Download CV</a>
+                      <a href="/download/resume.pdf" download>Download CV</a>
                   </Navigation>
               </Header>
                 <Content>
